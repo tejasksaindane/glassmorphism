@@ -1,0 +1,95 @@
+*{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    font-family: Montserrat;
+    padding:10em 10em;
+    background:url(./images/pexels-photo-409701.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 20%;
+
+}
+.glass{
+    float:left;
+    width:400px;
+    height:400px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding:40px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border:2px solid transparent;
+    background-clip: padding-box;
+    margin-left:auto;
+    color:gold;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.0.3) ;
+    line-height:1.5;
+    text-align: center;
+    transform:translateY(30px);
+    transition:0.5s;
+    margin-right:8.01px;
+    box-shadow:2px 2px 1px 1.5px gold;
+}
+.glass:hover{
+    transform:translateY(0px);
+    opacity:1;
+}
+h2{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+p{
+    font-size:16px ;
+    margin-bottom:10px;
+    color:white;
+}
+.glass_one{
+    float:left;
+    width:400px;
+    height:400px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding:40px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border:2px solid transparent;
+    background-clip: padding-box;
+    margin-left:auto;
+    color:gold;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.0.3) ;
+    line-height:1.5;
+    text-align: center;
+    transform:translateY(30px);
+    transition:0.5s
+}
+.glass_one:hover{
+    transform:translateY(0px);
+    opacity:1;
+}
+
+.glass_two{
+    float:left;
+    width:400px;
+    height:400px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    padding:40px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border:2px solid transparent;
+    background-clip: padding-box;
+    margin-left:auto;
+    color:gold;
+    box-shadow:10px 10px 10px rgba(45,55,68,0.0.3) ;
+    line-height:1.5;
+    text-align: center;
+    transform:translateY(30px);
+    transition:0.5s;
+    box-shadow:2px 2px 1px 1.5px gold;
+}
+.glass_two:hover{
+    transform:translateY(0px);
+    opacity:1;
+}
